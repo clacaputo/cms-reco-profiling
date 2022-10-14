@@ -31,11 +31,13 @@ with open('results/summary.yaml') as fi:
     mems = []
     for rel in releases:
         print(rel)
-        for wf in ["11834p21", "29234p21", "20634p21", "23434p21", "34834p21", "35234p21", "39634p21", "136p889"]:
+        for wf in ["11834p21", "29234p21", "20634p21", "23434p21", "34834p21", "35234p21", "39634p21", "136p889", "140p56"]:
             if wf in data[rel]: 
-                tev = data[rel][wf]["step3"]["cpu_event"]
-                tout = data[rel][wf]["step3"]["poolout_avg"]
-                mem = data[rel][wf]["step3"]["peak_rss"]
+                reco_step = "step2" if wf == "140p56" else "step3"
+
+                tev = data[rel][wf][reco_step]["cpu_event"]
+                tout = data[rel][wf][reco_step]["poolout_avg"]
+                mem = data[rel][wf][reco_step]["peak_rss"]
 
                 reldate = datetime.datetime.strptime(data[rel]["release_date"], "%Y-%m-%dT%H:%M:%SZ")
                 dates.append(reldate)
