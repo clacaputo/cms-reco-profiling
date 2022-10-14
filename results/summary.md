@@ -1321,3 +1321,41 @@
       - peak_rss: 2019.36 MB
       - file_size: 29.00 MB
       - profiles: [igprof_cpu](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre2/39634.21/step4/cpu_endjob), [igprof_mem_first](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre2/39634.21/step4/mem_live.1), [igprof_mem_mid](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre2/39634.21/step4/mem_live.50), [igprof_mem_last](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre2/39634.21/step4/mem_live.99), [circles](http://cms-reco-profiling.web.cern.ch/cms-reco-profiling/circles/piechart.php?local=false&dataset=CMSSW_12_6_0_pre2%2Fel8_amd64_gcc10%2F39634.21%2Fstep4_circles&resource=time_thread&colours=default&groups=reco_PhaseII&threshold=0)
+- CMSSW_10_6_30_slc7_amd64_gcc700
+- CMSSW_12_0_4_slc7_amd64_gcc900
+- CMSSW_12_2_0_slc7_amd64_gcc900
+- CMSSW_12_5_0_el8_amd64_gcc10
+- CMSSW_12_6_0_pre3_el8_amd64_gcc10
+  - 11834p21
+    - step3
+      - cpu_event: 13.62 s/ev
+      - poolout_avg: 0.30 s/ev
+      - peak_rss: 2242.50 MB
+      - file_size: 255.56 MB
+      - profiles: [igprof_cpu](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step3/cpu_endjob), [igprof_mem_first](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step3/mem_live.1), [igprof_mem_mid](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step3/mem_live.200), [igprof_mem_last](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step3/mem_live.399), [circles](http://cms-reco-profiling.web.cern.ch/cms-reco-profiling/circles/piechart.php?local=false&dataset=CMSSW_12_6_0_pre3%2Fel8_amd64_gcc10%2F11834.21%2Fstep3_circles&resource=time_thread&colours=default&groups=reco_PhaseII&threshold=0)
+    - step4
+      - cpu_event: 0.64 s/ev
+      - poolout_avg: 0.06 s/ev
+      - peak_rss: 1669.71 MB
+      - file_size: 45.90 MB
+      - profiles: [igprof_cpu](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step4/cpu_endjob), [igprof_mem_first](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step4/mem_live.1), [igprof_mem_mid](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step4/mem_live.200), [igprof_mem_last](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step4/mem_live.399), [circles](http://cms-reco-profiling.web.cern.ch/cms-reco-profiling/circles/piechart.php?local=false&dataset=CMSSW_12_6_0_pre3%2Fel8_amd64_gcc10%2F11834.21%2Fstep4_circles&resource=time_thread&colours=default&groups=reco_PhaseII&threshold=0)
+    - step5
+      - cpu_event: 0.08 s/ev
+      - poolout_avg: 0.01 s/ev
+      - peak_rss: 1013.28 MB
+      - file_size: 6.13 MB
+      - profiles: [igprof_cpu](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step5/cpu_endjob), [igprof_mem_first](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step5/mem_live.1), [igprof_mem_mid](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step5/mem_live.200), [igprof_mem_last](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/11834.21/step5/mem_live.399), [circles](http://cms-reco-profiling.web.cern.ch/cms-reco-profiling/circles/piechart.php?local=false&dataset=CMSSW_12_6_0_pre3%2Fel8_amd64_gcc10%2F11834.21%2Fstep5_circles&resource=time_thread&colours=default&groups=reco_PhaseII&threshold=0)
+  - 39634p21
+    - step3
+      - cpu_event: 65.97 s/ev
+      - poolout_avg: 5.18 s/ev
+      - peak_rss: 3399.21 MB
+      - file_size: 612.47 MB
+      - profiles: [igprof_cpu](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/39634.21/step3/cpu_endjob), [igprof_mem_first](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/39634.21/step3/mem_live.1), [igprof_mem_mid](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/39634.21/step3/mem_live.50), [igprof_mem_last](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/39634.21/step3/mem_live.99), [circles](http://cms-reco-profiling.web.cern.ch/cms-reco-profiling/circles/piechart.php?local=false&dataset=CMSSW_12_6_0_pre3%2Fel8_amd64_gcc10%2F39634.21%2Fstep3_circles&resource=time_thread&colours=default&groups=reco_PhaseII&threshold=0)
+    - step4
+      - cpu_event: 5.20 s/ev
+      - poolout_avg: 0.16 s/ev
+      - peak_rss: 1921.11 MB
+      - file_size: 29.65 MB
+      - profiles: [igprof_cpu](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/39634.21/step4/cpu_endjob), [igprof_mem_first](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/39634.21/step4/mem_live.1), [igprof_mem_mid](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/39634.21/step4/mem_live.50), [igprof_mem_last](https://cms-reco-profiling.web.cern.ch/cms-reco-profiling/cgi-bin/igprof-navigator/releases/CMSSW_12_6_0_pre3/39634.21/step4/mem_live.99), [circles](http://cms-reco-profiling.web.cern.ch/cms-reco-profiling/circles/piechart.php?local=false&dataset=CMSSW_12_6_0_pre3%2Fel8_amd64_gcc10%2F39634.21%2Fstep4_circles&resource=time_thread&colours=default&groups=reco_PhaseII&threshold=0)
+
